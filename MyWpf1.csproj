@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Background.jpg" />
+    <None Remove="Images\Background1.jpg" />
+    <None Remove="Images\Chess-pic.png" />
+    <None Remove="Images\chessImage2.jpg" />
+    <None Remove="Images\key-icon.png" />
+    <None Remove="Images\TrueChessLogo.png" />
+    <None Remove="Images\user-icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FontAwesome.Sharp" Version="6.6.0" />
+    <PackageReference Include="MvvmLightLibs" Version="5.4.1.1" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
+    <PackageReference Include="WPF-UI" Version="4.0.2" />
+    <PackageReference Include="WPF-UI.Abstractions" Version="4.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Background.jpg" />
+    <Resource Include="Images\Background1.jpg" />
+    <Resource Include="Images\Chess-pic.png" />
+    <Resource Include="Images\chessImage2.jpg" />
+    <Resource Include="Images\key-icon.png" />
+    <Resource Include="Images\TrueChessLogo.png" />
+    <Resource Include="Images\user-icon.png" />
+  </ItemGroup>
+
+</Project>
